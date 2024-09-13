@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sao kê MTTQ - Bảo Yagi</title>
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- data table -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/2.1.6/css/dataTables.dataTables.min.css">
+    <script src="https://cdn.datatables.net/2.1.6/js/dataTables.js"></script>
+
+    <!-- highlight -->
+    <script src="https://bartaz.github.io/sandbox.js/jquery.highlight.js"></script>
+    <script src="https://cdn.datatables.net/plug-ins/2.1.6/features/searchHighlight/dataTables.searchHighlight.min.js">
+    </script>
+    <link rel="stylesheet"
+        href="https://cdn.datatables.net/plug-ins/2.1.6/features/searchHighlight/dataTables.searchHighlight.css">
+
+    <!-- chart -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.js"></script>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>🕵🏼‍♂️ VAR Sao kê MTTQ - Bão Yagi 🌪️</h1>
+
+    <h3>Dữ liệu được cung cấp bởi <a target="_blank"
+            href="https://www.facebook.com/thongtinchinhphu/posts/pfbid03YkRTKZ5WjeHwBavPQbP7EShonj9tTExgY26gNhvQdiEsbjdsLWnzWEoQE1bU9SBl">MTTQ
+            Việt Nam</a> (<a target="_blank"
+            href="https://cdn.thuvienphapluat.vn/phap-luat/2022-2/PH/120924/thong_tin_ung_ho_qua_tsk_vcb_0011001932418_tu_01_09_den10_09_2024.pdf">Xem
+            PDF</a>) xử lý dữ liệu và web bởi <a target="_blank" href="https://github.com/hoangTran0410">HoangTran</a>
+        (<a target="_blank" href="https://github.com/HoangTran0410/saoke_yagi">Source code</a>)
+    </h3>
+
+    <div id="sumary"></div>
+
+    <table id="myTable" class="display">
+        <thead>
+            <tr>
+                <th>Ngày</th>
+                <th>Mã giao dịch</th>
+                <th>Số tiền</th>
+                <th>Chi tiết giao dịch</th>
+                <th>Trang PDF</th>
+            </tr>
+        </thead>
+    </table>
+
+    <div id="loading">Đang tải dữ liêu...</div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
