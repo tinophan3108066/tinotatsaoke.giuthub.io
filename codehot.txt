@@ -1,5 +1,5 @@
 {
   "NETWORK": {
-    "text": "NETWORK"
+    "text": "LANDING"
   }
 }
